@@ -2,4 +2,49 @@ body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-.section-one {background-color: #1F2937;}
+.section-one {
+    background-color: #1F2937;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.about-secondary,
+.links-header {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+button, .container {
+    background-color: #3882f6;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    /* Jak zmienić na light italic? */
+}
