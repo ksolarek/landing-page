@@ -6,7 +6,7 @@ body {
 .section-one,
 .header,
 .footer {
-    background-color: #1F2937;
+    background-color: #46242a;
 }
 
 .header {
@@ -23,11 +23,11 @@ a {
 }
 
 a:hover {
-    color: #c2a5ca; 
+    color: #EDB64D; 
 }
 
 a:active {
-    color: #3882f6;
+    color: #893a3a;
 }
 
 .links-header {
@@ -36,14 +36,14 @@ a:active {
 }
 
 .section-one {
-    padding: 50px 100px 50px 100px;
+    padding: 20px 100px 50px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
 }
 
-.leaf {
+.flower-about {
     max-width: 500px;
 }
 
@@ -56,7 +56,7 @@ h2 {
 
 h1 {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #EDB64D;
 }
 
 .about-secondary,
@@ -82,37 +82,49 @@ button {
     padding: 10px 30px;
     font-size: 18px;
     font-weight: 800;
-    color: #F9FAF8;
+    color: #46242a;;
     transition-duration: 0.2s;
+    box-shadow: 0 5px 5px 0 #0000002b, 0 6px 20px 0 #0000002b;
 }
 
 button:hover {
-    background-color: #c2a5ca; 
+    background-color: #EDB64D; 
   }
 
 button:active {
-    background-color: #5c5c5c;
+    background-color: #893a3a;
 }
 
 button, .container {
-    background-color: #3882f6;
+    background-color: #F8A797;
 }
+
+.container button:hover {
+    background-color: #ffcccc; 
+  }
+
+.container button:active {
+    background-color: #ffdddd; 
+  }
 
 .section-two {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .icon {
     width: 160px;
     height: 160px;
-    border-color: #3882f6;
+    border-color: #F8A797;
     border-style: solid;
     border-width: 4px;
     border-radius: 15px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icons {
@@ -130,6 +142,10 @@ button, .container {
     width: 160px;
 }
 
+.flower {
+    width: 150px;
+}
+
 h3 {
     font-size: 36px;
     font-weight: 900;
@@ -137,7 +153,7 @@ h3 {
 }
 
 .section-three {
-    background-color: #E5E7EB;
+    background-color: #f8a79760;
     padding: 100px 200px;
 }
 
@@ -163,7 +179,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     padding: 40px 80px;
-    color: #fff;
+    color: #46242a;
 }
 
 h4 {
@@ -173,11 +189,11 @@ h4 {
 
 .container p {
     margin: 0;
-    color: #c7d8ea;
+    color: #46242a;
 }
 
 .container button {
-    border-color: #fff;
+    border-color: #46242a;
     border-width: 2px;
     border-style: solid;
 }
