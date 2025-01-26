@@ -1,1 +1,2 @@
-# landing-page
+Credits:
+All images created using Canva
