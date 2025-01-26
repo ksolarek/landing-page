@@ -1,9 +1,11 @@
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 .section-one,
-.header {
+.header,
+.footer {
     background-color: #1F2937;
 }
 
@@ -12,6 +14,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition-duration: 0.2s;
+}
+
+a:hover {
+    color: #c2a5ca; 
+}
+
+a:active {
+    color: #3882f6;
 }
 
 .links-header {
@@ -46,11 +62,12 @@ h1 {
 .about-secondary,
 .links-header {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #c6cdd9;
 }
 
 .about-secondary {
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 ul {
@@ -59,7 +76,7 @@ ul {
     padding: 0;
 }
 
-.button {
+button {
     border: none;
     border-radius: 8px;
     padding: 10px 30px;
@@ -69,11 +86,15 @@ ul {
     transition-duration: 0.2s;
 }
 
-.button:hover {
+button:hover {
     background-color: #c2a5ca; 
   }
 
-.button, .container {
+button:active {
+    background-color: #5c5c5c;
+}
+
+button, .container {
     background-color: #3882f6;
 }
 
@@ -117,10 +138,52 @@ h3 {
 
 .section-three {
     background-color: #E5E7EB;
+    padding: 100px 200px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
-    /* Jak zmienić na light italic? */
+    font-weight: 100;
+}
+
+.signature {
+    text-align: end;
+    font-weight: 500;
+}
+
+.section-four {
+    padding: 80px 100px;
+}
+
+.container {
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    color: #fff;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.container p {
+    margin: 0;
+    color: #c7d8ea;
+}
+
+.container button {
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.footer {
+    padding: 40px;
+    text-align: center;
+    color: #F9FAF8;
 }
