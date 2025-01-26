@@ -77,6 +77,38 @@ ul {
     background-color: #3882f6;
 }
 
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.icon {
+    width: 160px;
+    height: 160px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    color: #656565; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.icon-one,
+.icon-two,
+.icon-three,
+.icon-four {
+    width: 160px;
+}
+
 h3 {
     font-size: 36px;
     font-weight: 900;
